@@ -1,3 +1,6 @@
+
+### Setup Template Laravel 10 with docker 
+
 1.  Dentro do container app Instale as dependências do PHP e do front-end:
 
 ```bash
