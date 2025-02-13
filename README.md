@@ -1,26 +1,36 @@
 
 ### Setup Template Laravel 10 with docker 
 
-1.  Dentro do container app Instale as dependências do PHP e do front-end:
+
+#### Setup do Ambiente
+
+1. Clone este repositório:
+```bash
+git clone https://github.com/zzeis/relogioponto.git
+cd relogio-ponto
+```
+
+
+2.  Dentro do container app Instale as dependências do PHP e do front-end:
 
 ```bash
 docker exec -it app(nome do seu container app) composer install
 docker exec -it app(nome do seu container app)  npm install
 ```
 
-2.  Gere a chave da aplicação Laravel(Dentro do container App):
+3.  Gere a chave da aplicação Laravel(Dentro do container App):
 
 ```bash
 docker exec -it app(nome do seu container app) php artisan key:generate
 ```
 
-3. Rode as migrações para criar o banco de dados:
+4. Rode as migrações para criar o banco de dados:
 
 ```bash
 docker exec -it app(nome do seu containre app) php artisan migrate
 ```
 
-4. Acesse o sistema no navegador:
+5. Acesse o sistema no navegador:
 
 -   URL: [http://localhost:8989](http://localhost:8989)
 
