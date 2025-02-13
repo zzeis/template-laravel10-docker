@@ -33,4 +33,8 @@ docker exec -it app(nome do seu containre app) php artisan migrate
     5 - worker para filas
     6 -
 
-arquivos importantes 5. dockerfile 6. docker-compose 7. .env
+#### arquivos importantes 
+
+    1 - dockerfile 
+    2 - docker-compose 
+    3 - .env.example
