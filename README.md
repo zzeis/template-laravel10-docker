@@ -40,7 +40,7 @@ docker exec -it app(nome do seu containre app) php artisan migrate
 #### containers
 
     1 - mysql 8
-    2 - app (laravel)
+    2 - app (laravel) (vite)
     3 - nginx
     4 - redis
     5 - worker para filas
